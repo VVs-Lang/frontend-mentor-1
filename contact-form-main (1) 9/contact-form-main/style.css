@@ -1,0 +1,28 @@
+*{
+margin:0;
+padding:6;
+box-sizing: border-box;
+}
+body{
+    background-color:hsl(169, 82%, 57%)
+}
+form{
+
+background-color: rgb(255, 255, 255);
+width:90vw ;
+height: 90vh;
+border-radius:1em ;
+padding: 2em;
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0em;
+}
+.campoNome{
+    display: flex;
+}
+h1{
+    margin:1em ;
+}
