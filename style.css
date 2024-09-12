@@ -4,25 +4,66 @@ padding:6;
 box-sizing: border-box;
 }
 body{
-    background-color:hsl(169, 82%, 57%)
+    background-color:hsl(225, 52%, 51%);
+    font-family:"karla",sans-serif
 }
 form{
+background-color: rgb(249, 249, 249);
+padding: 3em;
+border-radius: 1em ;
 
-background-color: rgb(255, 255, 255);
-width:90vw ;
-height: 90vh;
-border-radius:1em ;
-padding: 2em;
 }
 .formulario{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin:0em;
+   margin: 20vh 10vh 0 10vh;
 }
 .campoNome{
     display: flex;
 }
 h1{
     margin:1em ;
+}
+button{
+    width:100% ;
+    height:3em;
+    border-radius:1em ;
+    background-color: hsl(225, 52%, 51%);
+    color: rgb(0, 0, 0);
+    border: none;
+}
+.primeironome input, .sobrenome input{
+width:100% ;
+height: 2.5em; 
+border:1px solid rgb(160, 239, 239) ;
+border-radius: 1em;
+}
+.primeironome{
+    margin-right: 1em;
+}
+    .campoEmail input{
+        width:100% ;
+        height: 2.5em;
+        border:1px solid rgb(131, 205, 205) ;
+    }
+    .campoMensagem input{
+        width:100% ;
+        height: 10em;
+        border:1px solid rgb(131, 205, 205) ;
+    }
+    .campodeselecao{
+        display: flex;
+    }
+
+.selecao{
+    margin-right: 5em;
+    border:3px solid rgb(131, 205, 205) ;
+    border-radius:5em;
+}
+.aba{
+    
+    border:3px solid rgb(131, 205, 205) ;
+    border-radius:5em;
+
 }
